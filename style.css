@@ -1,0 +1,165 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+.container{
+    position: relative;
+  	color: #fdfbfb;
+}
+
+.imgText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+}
+.imgText h1{
+    font-size: 60px;
+}
+
+.donateButton{
+    text-decoration: none;
+    color: #fdfbfb;
+    font-weight: 600;
+    font-size: 25px;
+    border-style: none;
+    background-color: #FF5959;
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}
+section{
+    margin-bottom: 150px;
+}
+.donateToday{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.box{
+    padding: 80px;
+    background-color: #f0efef;
+    border: 3px solid #f0efef;
+    border-radius: 5%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    color: #443d3d;
+    font-weight: 600;
+}
+#box2{
+    padding: 80px;
+    background-color: #fdecec;
+    border: 3px solid #f77373;
+    border-radius: 5%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    color: #ee1818;
+    font-weight: 600;
+}
+.moneyBoxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.otherAmount{
+    text-align: center;
+    color: #443d3d;
+    border-bottom: 2px solid #443d3d;
+}
+.gridContainar2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gridContainar1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.donatePlanFamily{
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 40px 20px;
+
+}
+#donateFood{
+    background-color: #e3ffff;
+}
+#donateShelter{
+    background-color: #ffeded;
+}
+#donateEducation{
+    background-color: #fff8e3;
+}
+.yourDonation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.yourDonation img{
+    margin-left: 80px;
+    width: 100%;
+}
+.theySurvive{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.theySurvive img{
+    margin-right: 80px;
+}
+/*.myUpdates{
+    margin-left: 10%;
+    margin-right: 10%;
+}*/
+#subscribeButton{
+    text-decoration: none;
+    
+    color: #fdfbfb;
+    border-style: none;
+    background-color: #FF5959;
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}
+#emailSubscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 100px 10px;
+    background-color: antiquewhite;
+}
+#email{
+    background-color: #dbd9d9;
+    border-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    
+}
+#footer{
+
+    font-family: 'Pacifico', cursive;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px 20px 0;
+}
+#footer h2{
+    color: #FF5959;
+}
+#footer p{
+    color: #faf9f9;
+    text-align: center;
+}
